@@ -108,14 +108,12 @@ The project highlights strong full-stack development skills and provides a pract
 
 📸 Screenshots
 
-## 📸 Screenshots
-
-![Screenshot 1](Screenshots/Picture1.png)
-![Screenshot 2](Screenshots/Picture2.png)
-![Screenshot 3](Screenshots/Picture3.png)
-![Screenshot 4](Screenshots/Picture4.png)
-![Screenshot 5](Screenshots/Picture5.png)
-![Screenshot 6](Screenshots/Picture6.png)
-![Screenshot 7](Screenshots/Picture7.png)
-![Screenshot 8](Screenshots/Picture8.png)
-![Screenshot 9](Screenshots/Picture9.png)
+![Screenshot 1](Screenshots/Picture1.png)<br>
+![Screenshot 2](Screenshots/Picture2.png)<br>
+![Screenshot 3](Screenshots/Picture3.png)<br>
+![Screenshot 4](Screenshots/Picture4.png)<br>
+![Screenshot 5](Screenshots/Picture5.png)<br>
+![Screenshot 6](Screenshots/Picture6.png)<br>
+![Screenshot 7](Screenshots/Picture7.png)<br>
+![Screenshot 8](Screenshots/Picture8.png)<br>
+![Screenshot 9](Screenshots/Picture9.png)<br>
