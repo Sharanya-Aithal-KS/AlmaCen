@@ -105,3 +105,15 @@ This project is licensed under the MIT License.<br>
 
 AlmaCen demonstrates how the MERN stack can be effectively used to build a secure, scalable, and efficient inventory management system.
 The project highlights strong full-stack development skills and provides a practical solution for real-world stock management challenges with real-time capabilities and modern architecture.
+
+📸 Screenshots
+
+![Screenshot 1](Picture1.png)
+![Screenshot 2](Picture2.png)
+![Screenshot 3](Picture3.png)
+![Screenshot 4](Picture4.png)
+![Screenshot 5](Picture5.png)
+![Screenshot 6](Picture6.png)
+![Screenshot 7](Picture7.png)
+![Screenshot 8](Picture8.png)
+![Screenshot 9](Picture9.png)
