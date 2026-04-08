@@ -1,0 +1,165 @@
+/* ================= TABLE CONTAINER ================= */
+.table-container {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* ================= TABLE BASE ================= */
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* 🔑 keeps everything in one row */
+}
+
+/* ================= HEADERS & CELLS ================= */
+.inventory-table th,
+.inventory-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.75rem; /* reduced to fit */
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap; /* 🔑 prevents wrapping */
+}
+
+.inventory-table th {
+  background-color: #f8fafc;
+  font-weight: 600;
+  color: #475569;
+}
+
+/* ================= COLUMN WIDTH CONTROL ================= */
+.inventory-table th:nth-child(1)  { width: 10%; } /* Name */
+.inventory-table th:nth-child(2)  { width: 10%; }   /* Price */
+.inventory-table th:nth-child(3)  { width: 10%; } /* Category */
+.inventory-table th:nth-child(4)  { width: 10%; }  /* Quantity */
+.inventory-table th:nth-child(5)  { width: 10%; }  /* Stock In */
+.inventory-table th:nth-child(6)  { width: 10%; } /* Stock Out */
+.inventory-table th:nth-child(7)  { width: 10%; }/* Stock Trend */
+.inventory-table th:nth-child(8)  { width: 10%; }  /* Status */
+.inventory-table th:nth-child(9)  { width: 10%; } /* Stocks */
+.inventory-table th:nth-child(10) { width: 10%; } /* Controls */
+
+/* ================= ROW EFFECT ================= */
+.inventory-table tr:hover {
+  background-color: #f8fafc;
+}
+
+/* ================= STATUS BADGES ================= */
+.badge {
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badge-in {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.badge-low {
+  background-color: #ffedd5;
+  color: #9a3412;
+}
+
+.badge-out {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* ================= STOCK TREND ================= */
+.trend-badge {
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.trend-up {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.trend-down {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.trend-stable {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+/* ================= TEXT HELPERS ================= */
+.text-danger {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.text-success {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+/* ================= ACTION BUTTONS ================= */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+/* ================= BUTTON BASE ================= */
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.35rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+
+/* ================= BUTTON COLORS ================= */
+.btn-icon.in {
+  color: #16a34a;
+}
+.btn-icon.in:hover {
+  background-color: #dcfce7;
+}
+
+.btn-icon.out {
+  color: #ea580c;
+}
+.btn-icon.out:hover:not(:disabled) {
+  background-color: #ffedd5;
+}
+.btn-icon.out:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-icon.edit {
+  color: #2563eb;
+}
+.btn-icon.edit:hover {
+  background-color: #eff6ff;
+}
+
+.btn-icon.delete {
+  color: #dc2626;
+}
+.btn-icon.delete:hover {
+  background-color: #fee2e2;
+}
+
+/* ================= EMPTY STATE ================= */
+.no-data {
+  text-align: center;
+  padding: 2rem;
+  color: #94a3b8;
+}

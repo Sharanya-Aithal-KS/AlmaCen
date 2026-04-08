@@ -1,0 +1,59 @@
+.alert-banner {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0rem;
+  animation: slideIn 0.3s ease-out;
+}
+.alert-banner h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.alert-banner ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+.alert-banner li {
+  margin-bottom: 0.25rem;
+}
+/* OUT OF STOCK ALERT */
+.alert-out {
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+/* LOW STOCK ALERT */
+.alert-low {
+  background-color: #ffedd5;
+  border: 1px solid #fed7aa;
+  color: #9a3412;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* CONTAINER FOR BOTH ALERTS */
+.alert-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* MAKE BOTH ALERTS EQUAL WIDTH */
+.alert-container .alert-banner {
+  flex: 1;
+}
+
+/* RESPONSIVE: STACK ON SMALL SCREENS */
+@media (max-width: 768px) {
+  .alert-container {
+    flex-direction: column;
+  }
+}

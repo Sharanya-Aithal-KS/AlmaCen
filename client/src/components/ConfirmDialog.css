@@ -1,0 +1,74 @@
+.confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.brand-gradient {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+
+  background: linear-gradient(
+    90deg,
+    #2563eb,
+    #7c3aed,
+    #0ea5e9
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.brand-gradient1 {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0em;
+  background: black;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.confirm-box {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
+}
+
+.confirm-box h3 {
+  margin: 0 0 0.6rem;
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.confirm-box p {
+  margin: 0 0 1.5rem;
+  color: #334155;
+}
+
+.confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+}
+
+.btn-danger {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background: #b91c1c;
+}
